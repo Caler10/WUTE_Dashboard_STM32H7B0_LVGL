@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "myusart.h": "c",
+        "atk_mw8266d_uart.h": "c",
+        "atk_mw8266d.h": "c",
+        "fdcan.h": "c",
+        "mycan.h": "c",
+        "canapp.h": "c"
+    }
+}

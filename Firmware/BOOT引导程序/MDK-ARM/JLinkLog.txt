@@ -1,0 +1,100 @@
+T66AC 000:003.477   SEGGER J-Link V7.98b Log File
+T66AC 000:003.586   DLL Compiled: Jul 31 2024 16:10:46
+T66AC 000:003.590   Logging started @ 2024-11-19 05:01
+T66AC 000:003.594   Process: D:\AppGallery\Software\Keil_v5\UV4\UV4.exe
+T66AC 000:003.601 - 3.598ms
+T66AC 000:003.607 JLINK_SetWarnOutHandler(...)
+T66AC 000:003.611 - 0.004ms
+T66AC 000:003.618 JLINK_OpenEx(...)
+T66AC 000:006.372   Firmware: J-Link Pro V4 V11 PLUS Oct compiled 1 2024 13:26:26
+T66AC 000:007.399   Firmware: J-Link Pro V4 V11 PLUS Oct compiled 1 2024 13:26:26
+T66AC 000:007.515   Decompressing FW timestamp took 95 us
+T66AC 000:009.433   Hardware: V11.00
+T66AC 000:009.438   S/N: 601023401
+T66AC 000:009.442   OEM: SEGGER
+T66AC 000:009.447   Feature(s): FlashBP, GDB, JFlash, FlashDL, RDI
+T66AC 000:010.177   Bootloader: (Could not read)
+T66AC 000:010.670   USB speed mode: High speed (480 MBit/s)
+T66AC 000:010.984   TELNET listener socket opened on port 19021
+T66AC 000:011.053   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T66AC 000:011.147   WEBSRV Webserver running on local port 19080
+T66AC 000:011.220   Looking for J-Link GUI Server exe at: D:\AppGallery\Software\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T66AC 000:011.267   Looking for J-Link GUI Server exe at: D:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T66AC 000:011.277   Forking J-Link GUI Server: D:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T66AC 000:194.577   J-Link GUI Server info: "J-Link GUI server V7.98b "
+T66AC 000:198.168 - 194.544ms returns "O.K."
+T66AC 000:198.188 JLINK_GetEmuCaps()
+T66AC 000:198.194 - 0.004ms returns 0xB9FF7BBF
+T66AC 000:198.209 JLINK_TIF_GetAvailable(...)
+T66AC 000:198.403 - 0.194ms
+T66AC 000:198.409 JLINK_SetErrorOutHandler(...)
+T66AC 000:198.412 - 0.003ms
+T66AC 000:198.433 JLINK_ExecCommand("ProjectFile = "D:\Myworkspace\DashBoard1.0\Firmware\BOOTÒýµ¼³ÌÐò\MDK-ARM\JLinkSettings.ini"", ...). 
+T66AC 000:210.028   Ref file found at: D:\AppGallery\Software\Keil_v5\ARM\Segger\JLinkDevices.ref
+T66AC 000:210.085   REF file references invalid XML file: D:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T66AC 000:211.070 - 12.637ms returns 0x00
+T66AC 000:212.171 JLINK_ExecCommand("Device = STM32H7B0VBTx", ...). 
+T66AC 000:213.099   Flash bank @ 0x08000000: SFL: Parsing sectorization info from ELF file
+T66AC 000:213.108     FlashDevice.SectorInfo[0]: .SectorSize = 0x00002000, .SectorStartAddr = 0x00000000
+T66AC 000:213.113   FlashBank @0x08000000: Sectorization info from SFL ELF file ignored because sectorization override from DLL / XML file is active.
+T66AC 000:213.188   Flash bank @ 0x90000000: SFL: Parsing sectorization info from ELF file
+T66AC 000:213.194     FlashDevice.SectorInfo[0]: .SectorSize = 0x00010000, .SectorStartAddr = 0x00000000
+T66AC 000:219.345   Device "STM32H7B0VB" selected.
+T66AC 000:219.610 - 7.428ms returns 0x00
+T66AC 000:219.623 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T66AC 000:219.629   ERROR: Unknown command
+T66AC 000:219.634 - 0.006ms returns 0x01
+T66AC 000:219.641 JLINK_GetHardwareVersion()
+T66AC 000:219.646 - 0.006ms returns 110000
+T66AC 000:219.650 JLINK_GetDLLVersion()
+T66AC 000:219.653 - 0.003ms returns 79802
+T66AC 000:219.657 JLINK_GetOEMString(...)
+T66AC 000:219.661 JLINK_GetFirmwareString(...)
+T66AC 000:219.664 - 0.003ms
+T66AC 000:224.162 JLINK_GetDLLVersion()
+T66AC 000:224.176 - 0.013ms returns 79802
+T66AC 000:224.180 JLINK_GetCompileDateTime()
+T66AC 000:224.183 - 0.003ms
+T66AC 000:225.904 JLINK_GetFirmwareString(...)
+T66AC 000:225.916 - 0.011ms
+T66AC 000:227.352 JLINK_GetHardwareVersion()
+T66AC 000:227.362 - 0.009ms returns 110000
+T66AC 000:229.036 JLINK_GetSN()
+T66AC 000:229.048 - 0.011ms returns 601023401
+T66AC 000:230.253 JLINK_GetOEMString(...)
+T66AC 000:232.533 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T66AC 000:233.841 - 1.308ms returns 0x00
+T66AC 000:233.852 JLINK_HasError()
+T66AC 000:233.867 JLINK_SetSpeed(5000)
+T66AC 000:234.041 - 0.174ms
+T66AC 000:234.052 JLINK_GetId()
+T66AC 000:235.581   ConfigTargetSettings() start
+T66AC 000:235.597    J-Link Script File: Executing ConfigTargetSettings()
+T66AC 000:236.881   ConfigTargetSettings() end - Took 60us
+T66AC 000:238.147   InitTarget() start
+T66AC 000:238.155    J-Link Script File: Executing InitTarget()
+T66AC 000:245.744   SWD selected. Executing JTAG -> SWD switching sequence.
+T66AC 000:350.192   Error: Failed to initialized DAP.
+T66AC 000:351.604   Can not attach to CPU. Trying connect under reset.
+T66AC 000:405.859   SWD selected. Executing JTAG -> SWD switching sequence.
+T66AC 000:512.840   Error: Failed to initialized DAP.
+T66AC 000:514.877   Connecting to CPU via connect under reset failed.
+T66AC 000:568.307   InitTarget() end - Took 327ms
+T66AC 000:569.802   Connect failed. Resetting via Reset pin and trying again.
+T66AC 000:637.851   ConfigTargetSettings() start
+T66AC 000:637.895    J-Link Script File: Executing ConfigTargetSettings()
+T66AC 000:641.288   ConfigTargetSettings() end - Took 34us
+T66AC 000:644.315   InitTarget() start
+T66AC 000:644.334    J-Link Script File: Executing InitTarget()
+T66AC 000:647.971   SWD selected. Executing JTAG -> SWD switching sequence.
+T66AC 000:757.834   Error: Failed to initialized DAP.
+T66AC 000:759.582   Can not attach to CPU. Trying connect under reset.
+T66AC 000:816.067   SWD selected. Executing JTAG -> SWD switching sequence.
+T66AC 000:924.138   Error: Failed to initialized DAP.
+T66AC 000:927.916   Connecting to CPU via connect under reset failed.
+T66AC 000:981.605   InitTarget() end - Took 335ms
+T66AC 000:981.628 - 747.575ms returns 0x00000000
+T66AC 004:946.624 JLINK_Close()
+T66AC 004:951.254 - 4.628ms
+T66AC 004:951.271   
+T66AC 004:951.275   Closed
