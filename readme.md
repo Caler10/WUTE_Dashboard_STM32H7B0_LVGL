@@ -34,11 +34,11 @@ GUI设计界面：
 
 # 测试
 
-屏幕显示静态测试：
+屏幕静态显示测试：
 
 ![WUTE_Dashboard_Test.png](WUTE_Dashboard_Test.png)
 
-屏幕刷新动态测试：
+屏幕动态刷新测试：
 
 ![WUTE_Dashboard_Test_Video.gif](WUTE_Dashboard_Test_Video.gif)
 
