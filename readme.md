@@ -26,6 +26,10 @@ WUTE_Dashboard嵌入式软件基于STM32cubeIDE+Keil开发，GUI基于LVGL图形
 
 ![E33_Panel_Firmware.png](Firmware/E33_Panel_Firmware.png)
 
+## 模型说明
+
+![WUTE_Dashboard_Model.bmp](Model/WUTE_Dashboard_Model.bmp)
+
 ## GUI设计说明
 
 GUI设计界面：
