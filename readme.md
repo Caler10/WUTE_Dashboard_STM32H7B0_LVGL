@@ -10,4 +10,24 @@
 5. 集成2.4G无线数传模块
 6. 集成激活按钮、待驶按钮以及TSOFF、BMS、IMD指示灯
 
+# 设计说明
+
+## 硬件说明
+
+！[E33_Panel_3D.png](Hardware/E33_Panel_3D.png)
+
+## 软件说明
+
+！[E33_Panel_Firmware.png](Firmware/E33_Panel_Firmware.png)
+
+## GUI设计说明
+
+![WUTE_Dashboard_GUI.png](WUTE_Dashboard_GUI.png)
+
+# 测试
+
+![WUTE_Dashboard_Test.png](WUTE_Dashboard_Test.png)
+
+![WUTE_Dashboard_Test_Video.gif](WUTE_Dashboard_Test_Video.gif)
+
 施工中...
