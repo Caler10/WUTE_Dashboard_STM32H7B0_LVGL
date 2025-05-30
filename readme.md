@@ -14,19 +14,31 @@
 
 ## 硬件说明
 
-！[E33_Panel_3D.png](Hardware/E33_Panel_3D.png)
+PCB设计展示：
+
+![E33_Panel_3D.png](Hardware/E33_Panel_3D.png)
 
 ## 软件说明
 
-！[E33_Panel_Firmware.png](Firmware/E33_Panel_Firmware.png)
+WUTE_Dashboard嵌入式软件基于STM32cubeIDE+Keil开发，GUI基于LVGL图形库开发
+
+项目代码展示：
+
+![E33_Panel_Firmware.png](Firmware/E33_Panel_Firmware.png)
 
 ## GUI设计说明
+
+GUI设计界面：
 
 ![WUTE_Dashboard_GUI.png](WUTE_Dashboard_GUI.png)
 
 # 测试
 
+屏幕显示静态测试：
+
 ![WUTE_Dashboard_Test.png](WUTE_Dashboard_Test.png)
+
+屏幕刷新动态测试：
 
 ![WUTE_Dashboard_Test_Video.gif](WUTE_Dashboard_Test_Video.gif)
 
