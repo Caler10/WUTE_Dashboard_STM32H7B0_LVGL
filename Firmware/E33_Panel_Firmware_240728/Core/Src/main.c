@@ -151,8 +151,8 @@ int main(void)
 	lv_init();					     	//LVGL初始化
 	lv_port_disp_init();		 	//LVGL显示接口初始化
 	lv_port_indev_init();		//LVGL输入接口初始化
-	setup_ui(&guider_ui);		//启动UI界面（无开机界面）
-	custom_init(&guider_ui);	//定制刷新任务(放置先后顺序？
+	setup_ui(&guider_ui);		//启动UI界面
+	custom_init(&guider_ui);	//定制刷新任务
 	events_init(&guider_ui);	//事件处理初始化
 	
 	LCD_PwmSetPulse (1);			//背光引脚PWM初始化，范围：[1,100],起始亮度为5%

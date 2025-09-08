@@ -302,8 +302,7 @@ void DMA2D_IRQHandler(void)
 void TIM16_IRQHandler(void)
 {
   /* USER CODE BEGIN TIM16_IRQn 0 */
-	//另外执行一次DRS按钮状态读取、发报文
-		DRS_Button_Read_Task();
+
 	//配置为每1ms读一次光传传回值
 	static uint16_t i=0;
 	
