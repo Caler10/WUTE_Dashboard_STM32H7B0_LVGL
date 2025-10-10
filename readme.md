@@ -58,7 +58,9 @@ GUI设计界面：
 
 ![WUTE_Dashboard_Test_Video.gif](WUTE_Dashboard_Test_Video.gif)
 
-# 上车
+# 项目成果
+
+该仪表已顺利搭载在了WUTE车队2023赛季E33赛车和2024赛季E10赛车上并持续稳定运行，成为了赛车状况监测与可视化的重要途径，同时验证了其具备良好的抗振性与防水性
 
 ![WUTE_Dashboard_Racingcar.png](WUTE_Dashboard_Racingcar.png)
 
