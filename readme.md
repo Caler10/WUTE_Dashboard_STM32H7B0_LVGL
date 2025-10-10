@@ -3,9 +3,9 @@
 本人负责设计开发的WUTE第一代多功能自制仪表（该项目也是2023自创项目“针对电动方程式赛车开发的车身电子监控与人机交互系统”的人机交互部分），该仪表基于STM32H7B0VET6，采用5寸TFT高亮屏(800nit)，使用LVGL图形库绘制GUI界面并实时刷新赛车监测数据，具体功能如下：
 
 功能说明：
-1. 集成跑马灯功能
-2. 实时采集整车跑动数据，并在屏幕上实时刷新显示
-3. 具备屏幕亮度随环境光自动调节功能
+1. 实时采集整车跑动数据，并在屏幕上实时刷新显示
+2. 具备屏幕亮度随环境光自动调节功能
+3. 集成跑马灯功能
 4. 支持与整车CAN通讯
 5. 集成2.4G无线数传模块（ESP8266模块）
 6. 集成激活按钮、待驶按钮以及TSOFF、BMS、IMD指示灯
@@ -14,13 +14,21 @@
 
 ## 硬件说明
 
+硬件设计方面，采用立创EDA开发，四层板设计
+
 PCB设计展示：
 
 ![E33_Panel_3D.png](Hardware/E33_Panel_3D.png)
 
 ## 软件说明
 
-WUTE_Dashboard嵌入式软件基于STM32cubeIDE+Keil开发，软件采用Bootloader+App的设计方案（为实现外部flash加载），App软件基于前后台的裸机系统开发，GUI采用LVGL图形库开发
+开发平台：STM32H7B0VET6
+
+开发环境：STM32cubeMX+Keil+VSCode
+
+WUTE_Dashboard嵌入式软件分为Bootloader+App（为实现外部flash加载），App软件基于前后台的裸机系统开发，GUI采用LVGL图形库开发
+
+App软件架构：基于CORE层+BSP层（+中间层LVGL）+APP层的架构开发
 
 项目代码展示：
 
@@ -49,3 +57,8 @@ GUI设计界面：
 屏幕动态刷新测试，仪表可正常解析CAN总线报文并将相关信息实时在屏幕和跑马灯上刷新：
 
 ![WUTE_Dashboard_Test_Video.gif](WUTE_Dashboard_Test_Video.gif)
+
+# 上车
+
+![WUTE_Dashboard_Racingcar.png](WUTE_Dashboard_Racingcar.png)
+
